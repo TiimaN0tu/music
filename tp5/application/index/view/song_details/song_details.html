@@ -1,0 +1,137 @@
+
+{extend name="index/index" /}
+{block name='main'}
+<div class="container">
+    <div class="row">
+   
+        
+             <div class="col-md-3"><img src="__IMG__/liu.jpg" style="height:200px;width:160px" ></div>
+             <div class="col-md-6" id="geci">
+               <ul>
+                 <li>单曲:再也没有</li>
+                 <li>歌手:</li>
+                 <li>所属专辑:</li>
+               <button class="btn btn-danger">播放</button>
+               <button class="btn btn-primary">+</button>
+               <button class="btn btn-primary">收藏</button>
+
+               <button class="btn btn-primary">分享</button>
+               <button class="btn btn-primary">下载</button>
+               <button class="btn btn-primary">评价</button>
+               <br>
+               <br>
+               <br>
+
+               <li>作曲:</li>
+               <li>作词:</li>
+               <li>每天都没有着存在</li>
+               <li>不知道要做些什么</li>
+               <li>曾经的像流沙滑去</li>
+               <li>点点滴滴我舍不得还你</li>
+               <li>我在走着</li>
+               <li>凌晨的半夜里</li>
+               <li>幽静的月光照着我的身影</li>
+               <li>就像个找不到家的baby</li>
+               <li>手机里再也没有的你</li>
+                <br>
+                <br>
+                <button  id="bt">收起</button>
+               <li>每天都没有着存在</li>
+               <li>不知道要做些什么</li>
+               <li>曾经的像流沙滑去</li>
+               <li>点点滴滴我舍不得还你</li>
+               <li>我在走着</li>
+               <li>凌晨的半夜里</li>
+               <li>幽静的月光照着我的身影</li>
+               <li>就像个找不到家的baby</li>
+               <li>手机里再也没有的你</li>
+                <br>
+                <br>
+         
+
+              </ul>
+              
+
+             </div>
+             <div class="col-md-3"></div>
+           </div>
+  
+    
+
+    <div class="row">
+      <div class="col-md-9">
+         <p style="color:red;font-size: 20px">评论:<span style="font-size:10px">共4730条评论</span></p>
+         <hr style="border:1px solid red">
+       </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+            <div class="col-md-1">
+               <div><img src="__IMG__/1.jpg" style="height:40px;width:40px" ></div>
+               </div>
+            <div class="col-md-8">
+         
+                  <textarea style="border:1px solid #ccc; height:40px;width: 740px;"></textarea>
+                   
+                          <span>140</span>
+                         <button  class="btn btn-primary">评论</button>  
+               
+                   
+         
+            </div>
+            <div class="col-md-3"></div>
+     </div>
+
+
+
+         <div class="row">
+            <div class="col-md-9">
+                <p>精彩评论</p>
+                <hr style="border:1px solid #cfcfcf">
+            </div>
+            <div class="col-md-3"></div>
+           
+           
+         </div>
+
+
+        
+       
+
+
+         <div class="row">
+            <div class="col-md-9">
+               <div class="col-md-2">
+                   <div>
+                    <img src="public/images/1.jpg" style="height:60px;width:60px" >
+                   </div>
+               </div>
+               <div class="col-md-10">
+                  <div>
+                      内容!!!
+                      <a href="">点赞</a>
+                      <a href="">回复</a>
+                  </div>
+               </div>
+
+            </div>
+            <div class="col-md-3"></div>
+           
+           
+         </div>
+
+     
+    </div>
+
+
+</div>
+<script>
+    $('#bt').click(function(){
+        $('#geci').css('height', '420');
+        $('#geci').css('overflow', 'hidden');
+
+    });
+
+</script>
+
+{/block}

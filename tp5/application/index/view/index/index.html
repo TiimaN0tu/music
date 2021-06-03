@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>Bootstrap 101 Template</title>
+
+	<!-- Bootstrap -->
+	<link href="__CSS__/bootstrap.min.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="__JS__/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="__JS__/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse" style="font-size:18px">
+	  <div class="container">
+	    	<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="">网Q音乐</a>
+			</div>
+
+	   		 <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class=""><a href="#">我的音乐<span class="sr-only">(current)</span></a></li>
+					<li><a href="#">发现音乐</a></li>
+					<li><a href="#">发现音乐</a></li>
+
+				</ul>
+			  <form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+				  <input type="text" class="form-control" placeholder="Search">
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			  </form>
+			  <ul class="nav navbar-nav navbar-right">
+				   <li><a href="./login">登录</a></li>
+				  <li><a href="#">注册</a></li>
+
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+	  	</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<div style="background-color:#e3e3e3;">
+		
+		<div class="container" style="margin-top:-20px">	
+			<div class="col-md-3">
+				
+			</div>
+			<div class="col-md-7">
+				<ul class="nav navbar-nav">
+					<li class=""><a href="#">我的音乐</a></li>
+					<li class=""><a href="#">我的音乐</a></li>
+					<li class=""><a href="#">我的音乐</a></li>
+					<li class=""><a href="#">我的音乐</a></li>
+					<li class=""><a href="#">我的音乐</a></li>
+					<li class=""><a href="#">我的音乐</a></li>
+				</ul>
+			</div>		
+			<div class="col-md-2">
+				
+			</div>	
+		</div>
+
+	</div>
+
+
+
+	{block name='main'}
+	<div style="width:100%;background-color:#ccc; ">		
+		<div class="container"  height='300px'>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <img src="__IMG__/Meinv007.jpg" style="width:100%;height:500px;">
+				    </div>
+				    <div class="item">
+				      <img src="__IMG__/Meinv007.jpg" style="width:100%;height:500px;">
+			
+				    </div>
+				    <div class="item">
+				      <img src="__IMG__/Meinv009.jpg"  style="width:100%;height:500px;">
+			
+				    </div>
+				  </div>
+
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="margin-top: 20px">
+		<div class="col-md-9">
+			<b style="font-size:20px; line-height: 20px">热门推荐</b>
+			<span>华语</span>
+			<span>华语</span>
+			<hr style="border:2px solid red">
+			<div style="width:100%">
+
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="__IMG__/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./static/index/imgs/Meinv009.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<b style="font-size:20px; line-height: 20px">新碟上架</b>
+
+			<hr style="border:2px solid red">
+
+
+			<div style="width:100%">
+
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./public/images/1.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./public/images/1.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./public/images/1.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<img src="./public/images/1.jpg" >
+						<div class="caption">
+							<p><a href="#" title="现代乡村｜狂野与温柔并存的情话">现代乡村｜狂野与温柔并存的情话</a></p>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<b style="font-size:20px; line-height: 20px">榜单</b>
+
+			<hr style="border:2px solid red">
+
+			<div style="text-align:center;width:100%;" class="list-group">
+				<div class="col-md-4">
+
+					<a href="#" class="list-group-item active">
+						免费域名注册
+					</a>
+					<a href="#" class="list-group-item">24*7 支持</a>
+					<a href="#" class="list-group-item">免费 Window 空间托管</a>
+					<a href="#" class="list-group-item">图像的数量</a>
+					<a href="#" class="list-group-item">每年更新成本</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="list-group-item active">
+						免费域名注册
+					</a>
+					<a href="#" class="list-group-item">24*7 支持</a>
+					<a href="#" class="list-group-item">免费 Window 空间托管</a>
+					<a href="#" class="list-group-item">图像的数量</a>
+					<a href="#" class="list-group-item">每年更新成本</a>
+				</div>
+				<div class="col-md-4">
+					<a href="#" class="list-group-item active">
+						免费域名注册
+					</a>
+					<a href="#" class="list-group-item">24*7 支持</a>
+					<a href="#" class="list-group-item">免费 Window 空间托管</a>
+					<a href="#" class="list-group-item">图像的数量</a>
+					<a href="#" class="list-group-item">每年更新成本</a>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="col-md-3" style="padding:0px;border:1px solid #ccc;">
+			<div style="text-align:center;padding:20px;background-color:#eee;width:100%;" >
+
+				<p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+
+				<button class="btn btn-danger">用户登录</button>
+			</div>
+			<div style="padding:20px;">
+				<div style="border-bottom:1px solid #ccc;padding-bottom:10px">
+					入住歌手 <a style="float:right;">查看全部</a>
+				</div>
+				<div style="margin-top:20px;background-color: #cccccc;">
+					<div class="col-md-4">
+						<img src="/public/images/1.jpg" alt="">
+					</div>
+					<div class="col-md-8" style="text-align:center;">
+						<b>张惠妹</b>
+						<p>台湾歌手</p>
+					</div>
+
+				</div>
+				<div style="margin-top:20px;">
+					<div class="col-md-4">
+						<img src="/public/images/1.jpg" alt="">
+					</div>
+					<div class="col-md-8" style="text-align:center;">
+						<b>张惠妹</b>
+						<p>台湾歌手</p>
+					</div>
+
+				</div>
+				<div style="margin-top:20px;">
+					<div class="col-md-4">
+						<img src="/public/images/1.jpg" alt="">
+					</div>
+					<div class="col-md-8" style="text-align:center;">
+						<b>张惠妹</b>
+						<p>台湾歌手</p>
+					</div>
+
+				</div>
+				<div style="margin-top:20px;">
+					<div class="col-md-4">
+						<img src="/public/images/1.jpg" alt="">
+					</div>
+					<div class="col-md-8" style="text-align:center;">
+						<b>张惠妹</b>
+						<p>台湾歌手</p>
+					</div>
+
+				</div>
+				<button class="btn btn-default btn-block">申请成为音乐人</button>
+			</div>
+		</div>
+
+	</div>
+	{/block}
+
+
+
+	{block name='footer'}
+	<!-- footer -->
+	<div style="width:100%;height:150px;background-color:#ccc;border-top:1px solid #666">
+		<div class='container'>
+			<div class="col-md-6" style="margin-top:50px">
+				<span>关于Tomusic</span>
+				<span>|</span>
+				<span>客户服务</span>
+				<span>|</span>
+
+				<span>服务条款</span>
+				<span>|</span>
+				<span>网站导航</span>
+				<span>|</span>
+				<span>意见反馈</span>
+				<br><br>
+				<span>
+					网易公司版权所有©1997-2017杭州乐读科技有限公司运营：浙网文[2015] 0415-135号
+				</span>
+			</div>
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-4" style="margin-top:50px">
+				战略合作:腾讯
+			</div>
+
+		</div>
+	</div>
+	<!-- end footer-->
+	{/block}
+
+</body>
+</html>

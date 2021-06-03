@@ -9,13 +9,17 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-return [
-    '__pattern__' => [
-        'name' => '\w+',
-    ],
-    '[hello]'     => [
-        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
-        ':name' => ['index/hello', ['method' => 'post']],
-    ],
 
-];
+
+use think\Route;
+
+// postman
+
+Route::get('/ppp','index/index/pcenter');
+Route::get('/login','index/index/login');
+
+
+Route::get('/song_details','index/index/song_details');
+
+
+

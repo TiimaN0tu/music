@@ -1,0 +1,34 @@
+{extend name="index/index" /}
+
+
+<link rel="stylesheet" href="./public/my.css">
+
+
+{block name='main'}
+    <div class="container">
+          <div class="row">
+           <div style="border:1px solid #ccc;height:600px;background:url('__IMG__/4.jpg') no-repeat">
+            <div class="col-md-7" style="background-image:'public/images/lu.jpg'"></div>
+            <div class="col-md-5">
+
+            <!--   <div style="border:1px solid #cfcfcf; height:400px;width:750px"> -->
+              
+                  <div id="shouji" style="border:1px solid #ccc; height:30px;width:100px;text-align:center;background-color:blue;color:white;margin-top:80px;margin-left:120px;font-size:20px" >手机注册</div>
+                 
+            
+                *手机号码:<input type="text" style="width:250px;height:35px;margin-top:30px"><br><br>
+                *短信验证:<input type="text" style="width:200px;height:35px"><button class="btn btn-primary">验证</button><br><br>
+                *初始密码:<input type="password" style="width:250px;height:35px"><br><br>
+                *确认密码:<input type="password" style="width:250px;height:35px"><br><br>
+
+                <input type="submit" class="btn btn-danger" style="margin-left:150px">
+                
+             
+
+        
+             </div>
+             </div>
+       </div>
+      </div>
+{/block}
+
